@@ -1,0 +1,223 @@
+{
+    "name": "",
+    "title": "",
+    "description": "",
+    "doi": "",
+    "version": "",
+    "created": "",
+    "licenses": [
+        {
+            "title": "",
+            "name": "",
+            "path": ""
+        }
+    ],
+    "sources": [
+        {
+            "title": "",
+            "path": "",
+            "contributors": [
+                {
+                    "title": "",
+                    "path": "",
+                    "email": "",
+                    "role": ""
+                }
+            ]
+        }
+    ],
+    "resources": [
+        {
+            "name": "",
+            "description": "",
+            "path": "",
+            "doi": "",
+            "format": "",
+            "mediatype": "",
+            "bytes": "",
+            "date": "",
+            "encoding": "",
+            "version": "",
+            "language": "",
+            "schema": [
+                {
+                    "name": "",
+                    "type": "",
+                    "description": ""
+                }
+            ],
+            "dialect": {
+                "delimiter": "",
+                "header": "",
+                "doubleQuote": "",
+                "lineTerminator": "",
+                "quoteChar": "",
+                "skipInitialSpace": ""
+            }
+        }
+    ],
+    "contributors": [
+        {
+            "title": "",
+            "path": "",
+            "email": "",
+            "role": ""
+        }
+    ],
+    "privacy": [
+        {
+            "notice": {
+                "path": "",
+                "description": ""
+            },
+            "useTerms": {
+                "path": "",
+                "description": ""
+            },
+            "sensitivity": {
+                "description": "",
+                "types": [
+                    {
+                        "name": "",
+                        "description": ""
+                    }
+                ]
+            },
+            "confidentiality": {
+                "description": "",
+                "path": ""
+            },
+            "assessments": [
+                {
+                    "name": "",
+                    "path": "",
+                    "description": ""
+                }
+            ]
+        }
+    ],
+    "security": [
+        {
+            "access": {
+                "level": "",
+                "description": "",
+                "path": "",
+                "contributors": [
+                    {
+                        "title": "",
+                        "path": "",
+                        "email": "",
+                        "role": ""
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "path": ""
+                    }
+                ]
+            },
+            "protectionMethods": [
+                {
+                    "name": "",
+                    "description": "",
+                    "path": ""
+                }
+            ]
+        }
+    ],
+    "procedures": {
+        "collection": [
+            {
+                "description": "",
+                "path": "",
+                "contributors": [
+                    {
+                        "title": "",
+                        "path": "",
+                        "email": "",
+                        "role": ""
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "path": ""
+                    }
+                ],
+                "consent": [
+                    {
+                        "title": "",
+                        "description": "",
+                        "path": ""
+                    }
+                ]
+            }
+        ],
+        "processing": [
+            {
+                "description": "",
+                "path": "",
+                "contributors": [
+                    {
+                        "title": "",
+                        "path": "",
+                        "email": "",
+                        "role": ""
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "",
+                        "description": "",
+                        "path": ""
+                    }
+                ]
+            }
+        ],
+        "update": [
+            {
+                "isUpdated": "",
+                "description": "",
+                "path": "",
+                "periodicity": {
+                    "frequency": "",
+                    "frequencyUnit": ""
+                },
+                "method": {
+                    "name": "",
+                    "description": "",
+                    "path": ""
+                },
+                "backups": {
+                    "description": "",
+                    "path": "",
+                    "frequency": "",
+                    "frequencyUnit": ""
+                },
+                "contributors": [
+                    {
+                        "title": "",
+                        "path": "",
+                        "email": "",
+                        "role": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "use": [
+        {
+            "description": "",
+            "examples": [
+                {
+                    "name": "",
+                    "path": "",
+                    "description": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+{
+    "name": "us-broadband-usage",
+    "title": "US Broadband Usage Percentages",
+    "description": "Microsoft Airband Initiative to help close the rural broadband gap. The data can be used for the purpose of analyzing, understanding, improving, or addressing problems related to broadband access.",
+    "version": "v1",
+    "created": "2022-12-15",
+    "language": "English",
+    "licenses": [
+        {
+            "name": "O-UDA",
+            "title": "Open Use of Data Agreement v1.0",
+            "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md"
+        }
+    ],
+    "resources": [
+        {
+            "name": "broadband_data_zipcode",
+            "description": "broadband usage by zip code",
+            "path": "dataset/broadband_data_zipcode.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "bytes": "2321",
+            "date": "2021-12-12",
+            "encoding": "utf-8",
+            "version":"v1",
+            "schema": [
+                {
+                    "name": "field1",
+                    "description": "field description",
+                    "type": "string"
+                }
+            ],
+            "dialect": {
+                    "delimieter": ";",
+                    "header": true,
+                    "doubleQuote": true,
+                    "lineTerminator": "\\r\\n",
+                    "quoteChar": "a",
+                    "skipInitialSpace": false
+             }
+        },
+        {
+            "name": "broadband_data",
+            "description": "Raw data from scrape",
+            "path": "dataset/scraped_raw_data.csv",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "bytes": "920323",
+            "date": "2020-09-04",
+            "encoding": "utf-8",
+            "version":"v1"
+        }
+    ],
+    "sources": [
+        {
+            "title": "BROADBAND AVAILABILITY PER FCC",
+            "path": "https://www.fcc.gov/reports-research/reports/broadband-progress-reports/fourteenth-broadband-deployment-report",
+            "contributors": [
+                {
+                    "title": "John Snow",
+                    "path": "https://www.fcc.gov/",
+                    "email": "some@email.com",
+                    "role": "author"
+                }
+            ]
+        }
+    ],
+    "contributors": [
+        {
+            "title": "some title",
+            "path": "some path",
+            "email": "some@email.com",
+            "role": "author"
+        },
+        {
+            "title": "some title 2",
+            "path": "some path 2",
+            "email": "some2@email.com",
+            "role": "author 2"
+        }
+    ],
+    "procedures": [
+        {
+            "collection": {
+                "contributors": [
+                    {
+                        "title": "some title 2",
+                        "path": "some path 2",
+                        "email": "some2@email.com",
+                        "role": "author 2"
+                    }
+                ],
+                "description": ""
+            },
+            "processing": {
+                "contributors": [
+                    {
+                        "title": "some title 2",
+                        "path": "some path 2",
+                        "email": "some2@email.com",
+                        "role": "author 2"
+                    }
+                ],
+                "description": "",
+                "path": ""
+            },
+            "update": {
+                "contributors": [
+                    {
+                        "title": "some title 2",
+                        "path": "some path 2",
+                        "email": "some2@email.com",
+                        "role": "author 2"
+                    }
+                ],
+                "description": "",
+                "path": ""
+            }
+        }
+    ],
+    "privacy": [
+        {
+            "notice": {
+                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                "description": "Privacy Agreement"
+            },
+            "useTerms": {
+                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                "description": "User Terms"
+            }
+        }
+    ],
+    "security": [
+        {
+            "access": {
+                "level": "Public",
+                "description": "This dataset is publicly available",
+                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                "contributors": [
+                    {
+                        "title": "External",
+                        "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                        "email": "some@email.com",
+                        "role": "author"
+                    }
+                ]
+            }
+        }
+    ]
+}
