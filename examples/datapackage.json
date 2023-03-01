@@ -28,7 +28,9 @@
                     "email": "some@email.com",
                     "role": "publisher"
                 }
-            ]
+            ],
+            "description": "",
+            "examples": []
         }
     ],
     "resources": [
@@ -37,11 +39,13 @@
             "description": "resource description",
             "path": "https://microsoft.github.io/opendatasheets/",
             "format": "csv",
+            "doi": "doi",            
             "mediatype": "text/csv",
             "bytes": "2048",
             "date": "2023-03-01",
             "encoding": "utf-8",
             "version": "v1",
+            "language": "English",            
             "schema": [
                 {
                     "name": "schema name",
@@ -135,7 +139,8 @@
                     {
                         "title": "collection procedure consent's title",
                         "description": "collection procedure consent's description",
-                        "path": "https://microsoft.github.io/opendatasheets/"
+                        "path": "https://microsoft.github.io/opendatasheets/",
+                        "name": ""
                     }
                 ]
             }
@@ -149,7 +154,9 @@
                         "title": "contributor title",
                         "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "contributor"
+                        "role": "contributor",
+                        "name": "",
+                        "description": ""
                     }
                 ],
                 "methods": [
