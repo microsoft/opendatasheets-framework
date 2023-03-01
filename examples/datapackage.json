@@ -1,18 +1,18 @@
 {
-    "name": "package name",
-    "title": "packate title",
-    "description": "package description",
-    "doi": "doi",
-    "version": "1.0",
+    "name": "data package name",
+    "title": "data package title",
+    "description": "data package description",
+    "doi": "data package doi",
+    "version": "data package version",
     "created": "2023-03-01",
     "licenses": [
         {
-            "title": "Attribution Assurance Licenses",
-            "name": "AAL",
-            "path": "https://opensource.org/licenses/AAL"
+            "title": "Academic Free License 3.0",
+            "name": "AFL-3.0",
+            "path": "https://opensource.org/licenses/AFL-3.0"
         },
         {
-            "title": "Other license title",
+            "title": "other license title",
             "name": "other license",
             "path": "https://microsoft.github.io/opendatasheets/"
         }
@@ -26,11 +26,9 @@
                     "title": "contributor title",
                     "path": "https://microsoft.github.io/opendatasheets/",
                     "email": "some@email.com",
-                    "role": "publisher"
+                    "role": "maintainer"
                 }
-            ],
-            "description": "",
-            "examples": []
+            ]
         }
     ],
     "resources": [
@@ -38,13 +36,13 @@
             "name": "resource name",
             "description": "resource description",
             "path": "https://microsoft.github.io/opendatasheets/",
+            "doi": "resource doi",
             "format": "csv",
-            "doi": "doi",
             "mediatype": "text/csv",
             "bytes": "2048",
             "date": "2023-03-01",
             "encoding": "utf-8",
-            "version": "v1",
+            "version": "resource version",
             "language": "English",
             "schema": [
                 {
@@ -68,7 +66,7 @@
             "title": "contributor title",
             "path": "https://microsoft.github.io/opendatasheets/",
             "email": "some@email.com",
-            "role": "author"
+            "role": "publisher"
         }
     ],
     "privacy": [
@@ -85,18 +83,18 @@
                 "description": "sensitivity description",
                 "types": [
                     {
-                        "name": "biometric",
-                        "description": "sensivity type's description"
+                        "name": "political opinions",
+                        "description": "sensitivity description"
                     }
                 ]
             },
             "confidentiality": {
                 "path": "https://microsoft.github.io/opendatasheets/",
-                "description": "confidentiality description"
+                "description": "confidentiality decription"
             },
             "assessments": [
                 {
-                    "name": "privacy review",
+                    "name": "other",
                     "path": "https://microsoft.github.io/opendatasheets/",
                     "description": "assessment description"
                 }
@@ -106,7 +104,7 @@
     "security": [
         {
             "access": {
-                "level": "restricted",
+                "level": "public",
                 "description": "access description",
                 "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
@@ -114,7 +112,7 @@
                         "title": "contributor title",
                         "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "publisher"
+                        "role": "maintainer"
                     }
                 ]
             }
@@ -123,7 +121,7 @@
     "procedures": {
         "collection": [
             {
-                "description": "collection procedure description",
+                "description": "procedure description",
                 "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
                     {
@@ -135,39 +133,36 @@
                 ],
                 "methods": [
                     {
-                        "name": "observations ",
-                        "description": "collection procedure method's description",
+                        "name": "interviews",
+                        "description": "method description",
                         "path": "https://microsoft.github.io/opendatasheets/"
                     }
                 ],
                 "consent": [
                     {
-                        "title": "collection procedure consent's title",
-                        "description": "collection procedure consent's description",
-                        "path": "https://microsoft.github.io/opendatasheets/",
-                        "name": ""
+                        "title": "consent title",
+                        "description": "consent description",
+                        "path": "https://microsoft.github.io/opendatasheets/"
                     }
                 ]
             }
         ],
         "processing": [
             {
-                "description": "processing procedure description",
+                "description": "procedure description",
                 "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
                     {
                         "title": "contributor title",
                         "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "contributor",
-                        "name": "",
-                        "description": ""
+                        "role": "maintainer"
                     }
                 ],
                 "methods": [
                     {
-                        "name": "aggregation",
-                        "description": "processing procedure method's description",
+                        "name": "anonymization",
+                        "description": "method description",
                         "path": "https://microsoft.github.io/opendatasheets/"
                     }
                 ]
@@ -175,15 +170,15 @@
         ],
         "update": [
             {
-                "isUpdated": "true",
-                "description": "update procedure description",
+                "isUpdated": "false",
+                "description": "procedure description",
                 "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
                     {
                         "title": "contributor title",
                         "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "contributor"
+                        "role": "maintainer"
                     }
                 ],
                 "periodicity": {
@@ -191,15 +186,15 @@
                     "frequencyUnit": "week"
                 },
                 "method": {
-                    "name": "full refresh",
-                    "description": "update procedure method's description",
+                    "name": "other",
+                    "description": "method description",
                     "path": "https://microsoft.github.io/opendatasheets/"
                 },
                 "versioning": {
-                    "description": "update procedure versioning's description",
+                    "description": "versioning description",
                     "path": "https://microsoft.github.io/opendatasheets/",
                     "frequency": "1",
-                    "frequencyUnit": "week"
+                    "frequencyUnit": "year"
                 }
             }
         ]
@@ -209,9 +204,9 @@
             "description": "use description",
             "examples": [
                 {
-                    "name": "use example's name",
+                    "name": "example name",
                     "path": "https://microsoft.github.io/opendatasheets/",
-                    "description": "use example's description"
+                    "description": "example description"
                 }
             ]
         }
