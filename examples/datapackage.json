@@ -1,150 +1,207 @@
 {
-    "name": "us-broadband-usage",
-    "title": "US Broadband Usage Percentages",
-    "description": "Microsoft Airband Initiative to help close the rural broadband gap. The data can be used for the purpose of analyzing, understanding, improving, or addressing problems related to broadband access.",
-    "version": "v1",
-    "created": "2022-12-15",
-    "language": "English",
+    "name": "package name",
+    "title": "packate title",
+    "description": "package description",
+    "doi": "doi",
+    "version": "1.0",
+    "created": "2023-03-01",
     "licenses": [
         {
-            "name": "O-UDA",
-            "title": "Open Use of Data Agreement v1.0",
-            "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md"
-        }
-    ],
-    "resources": [
-        {
-            "name": "broadband_data_zipcode",
-            "description": "broadband usage by zip code",
-            "path": "dataset/broadband_data_zipcode.csv",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "bytes": "2321",
-            "date": "2021-12-12",
-            "encoding": "utf-8",
-            "version":"v1",
-            "schema": [
-                {
-                    "name": "field1",
-                    "description": "field description",
-                    "type": "string"
-                }
-            ],
-            "dialect": {
-                    "delimieter": ";",
-                    "header": true,
-                    "doubleQuote": true,
-                    "lineTerminator": "\\r\\n",
-                    "quoteChar": "a",
-                    "skipInitialSpace": false
-             }
+            "title": "Attribution Assurance Licenses",
+            "name": "AAL",
+            "path": "https://opensource.org/licenses/AAL"
         },
         {
-            "name": "broadband_data",
-            "description": "Raw data from scrape",
-            "path": "dataset/scraped_raw_data.csv",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "bytes": "920323",
-            "date": "2020-09-04",
-            "encoding": "utf-8",
-            "version":"v1"
+            "title": "Other license title",
+            "name": "other license",
+            "path": "https://microsoft.github.io/opendatasheets/"
         }
     ],
     "sources": [
         {
-            "title": "BROADBAND AVAILABILITY PER FCC",
-            "path": "https://www.fcc.gov/reports-research/reports/broadband-progress-reports/fourteenth-broadband-deployment-report",
+            "title": "source title",
+            "path": "https://microsoft.github.io/opendatasheets/",
             "contributors": [
                 {
-                    "title": "John Snow",
-                    "path": "https://www.fcc.gov/",
+                    "title": "contributor title",
+                    "path": "https://microsoft.github.io/opendatasheets/",
                     "email": "some@email.com",
-                    "role": "author"
+                    "role": "publisher"
                 }
             ]
         }
     ],
-    "contributors": [
+    "resources": [
         {
-            "title": "some title",
-            "path": "some path",
-            "email": "some@email.com",
-            "role": "author"
-        },
-        {
-            "title": "some title 2",
-            "path": "some path 2",
-            "email": "some2@email.com",
-            "role": "author 2"
+            "name": "resource name",
+            "description": "resource description",
+            "path": "https://microsoft.github.io/opendatasheets/",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "bytes": "2048",
+            "date": "2023-03-01",
+            "encoding": "utf-8",
+            "version": "v1",
+            "schema": [
+                {
+                    "name": "schema name",
+                    "type": "schema type",
+                    "description": "schema description"
+                }
+            ],
+            "dialect": {
+                "delimiter": ";",
+                "header": "true",
+                "doubleQuote": "false",
+                "lineTerminator": ";",
+                "quoteChar": "a",
+                "skipInitialSpace": "true"
+            }
         }
     ],
-    "procedures": [
+    "contributors": [
         {
-            "collection": {
-                "contributors": [
-                    {
-                        "title": "some title 2",
-                        "path": "some path 2",
-                        "email": "some2@email.com",
-                        "role": "author 2"
-                    }
-                ],
-                "description": ""
-            },
-            "processing": {
-                "contributors": [
-                    {
-                        "title": "some title 2",
-                        "path": "some path 2",
-                        "email": "some2@email.com",
-                        "role": "author 2"
-                    }
-                ],
-                "description": "",
-                "path": ""
-            },
-            "update": {
-                "contributors": [
-                    {
-                        "title": "some title 2",
-                        "path": "some path 2",
-                        "email": "some2@email.com",
-                        "role": "author 2"
-                    }
-                ],
-                "description": "",
-                "path": ""
-            }
+            "title": "contributor title",
+            "path": "https://microsoft.github.io/opendatasheets/",
+            "email": "some@email.com",
+            "role": "author"
         }
     ],
     "privacy": [
         {
             "notice": {
-                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
-                "description": "Privacy Agreement"
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "description": "notice description"
             },
             "useTerms": {
-                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
-                "description": "User Terms"
-            }
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "description": "use terms description"
+            },
+            "sensitivity": {
+                "description": "sensitivity description",
+                "types": []
+            },
+            "confidentiality": {
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "description": "confidentiality description"
+            },
+            "assessments": [
+                {
+                    "name": "privacy review",
+                    "path": "https://microsoft.github.io/opendatasheets/",
+                    "description": "assessment description"
+                }
+            ]
         }
     ],
     "security": [
         {
             "access": {
-                "level": "Public",
-                "description": "This dataset is publicly available",
-                "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                "level": "restricted",
+                "description": "access description",
+                "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
                     {
-                        "title": "External",
-                        "path": "https://github.com/microsoft/USBroadbandUsagePercentages/blob/master/LICENSE.md",
+                        "title": "contributor title",
+                        "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "author"
+                        "role": "publisher"
                     }
                 ]
             }
+        }
+    ],
+    "procedures": {
+        "collection": [
+            {
+                "description": "collection procedure description",
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "contributors": [
+                    {
+                        "title": "contributor title",
+                        "path": "https://microsoft.github.io/opendatasheets/",
+                        "email": "some@email.com",
+                        "role": "wrangler"
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "observations ",
+                        "description": "collection procedure method's description",
+                        "path": "https://microsoft.github.io/opendatasheets/"
+                    }
+                ],
+                "consent": [
+                    {
+                        "title": "collection procedure consent's title",
+                        "description": "collection procedure consent's description",
+                        "path": "https://microsoft.github.io/opendatasheets/"
+                    }
+                ]
+            }
+        ],
+        "processing": [
+            {
+                "description": "processing procedure description",
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "contributors": [
+                    {
+                        "title": "contributor title",
+                        "path": "https://microsoft.github.io/opendatasheets/",
+                        "email": "some@email.com",
+                        "role": "contributor"
+                    }
+                ],
+                "methods": [
+                    {
+                        "name": "aggregation",
+                        "description": "processing procedure method's description",
+                        "path": "https://microsoft.github.io/opendatasheets/"
+                    }
+                ]
+            }
+        ],
+        "update": [
+            {
+                "isUpdated": "true",
+                "description": "update procedure description",
+                "path": "https://microsoft.github.io/opendatasheets/",
+                "contributors": [
+                    {
+                        "title": "contributor title",
+                        "path": "https://microsoft.github.io/opendatasheets/",
+                        "email": "some@email.com",
+                        "role": "contributor"
+                    }
+                ],
+                "periodicity": {
+                    "frequency": "1",
+                    "frequencyUnit": "week"
+                },
+                "method": {
+                    "name": "full refresh",
+                    "description": "update procedure method's description",
+                    "path": "https://microsoft.github.io/opendatasheets/"
+                },
+                "versioning": {
+                    "description": "update procedure versioning's description",
+                    "path": "https://microsoft.github.io/opendatasheets/",
+                    "frequency": "1",
+                    "frequencyUnit": "week"
+                }
+            }
+        ]
+    },
+    "use": [
+        {
+            "description": "use description",
+            "examples": [
+                {
+                    "name": "use example's name",
+                    "path": "https://microsoft.github.io/opendatasheets/",
+                    "description": "use example's description"
+                }
+            ]
         }
     ]
 }
