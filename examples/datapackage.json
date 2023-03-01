@@ -54,7 +54,7 @@
                 }
             ],
             "dialect": {
-                "delimiter": ";",
+                "delimiter": "-",
                 "header": "true",
                 "doubleQuote": "false",
                 "lineTerminator": ";",
