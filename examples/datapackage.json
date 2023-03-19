@@ -7,11 +7,6 @@
     "created": "2023-03-01",
     "licenses": [
         {
-            "title": "Academic Free License 3.0",
-            "name": "AFL-3.0",
-            "path": "https://opensource.org/licenses/AFL-3.0"
-        },
-        {
             "title": "other license title",
             "name": "other license",
             "path": "https://microsoft.github.io/opendatasheets/"
@@ -52,12 +47,12 @@
                 }
             ],
             "dialect": {
-                "delimiter": "-",
+                "delimiter": ",",
                 "header": "true",
                 "doubleQuote": "false",
                 "lineTerminator": ";",
                 "quoteChar": "a",
-                "skipInitialSpace": "true"
+                "skipInitialSpace": "false"
             }
         }
     ],
@@ -170,7 +165,7 @@
         ],
         "update": [
             {
-                "isUpdated": "false",
+                "isUpdated": "true",
                 "description": "procedure description",
                 "path": "https://microsoft.github.io/opendatasheets/",
                 "contributors": [
@@ -182,7 +177,7 @@
                     }
                 ],
                 "periodicity": {
-                    "frequency": "1",
+                    "frequency": 1,
                     "frequencyUnit": "week"
                 },
                 "method": {
@@ -193,7 +188,7 @@
                 "versioning": {
                     "description": "versioning description",
                     "path": "https://microsoft.github.io/opendatasheets/",
-                    "frequency": "1",
+                    "frequency": 1,
                     "frequencyUnit": "year"
                 }
             }
