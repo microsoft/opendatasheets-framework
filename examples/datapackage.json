@@ -33,7 +33,7 @@
             "path": "https://microsoft.github.io/opendatasheets/",
             "doi": "resource doi",
             "format": "csv",
-            "mediatype": "text/csv",
+            "mediatype": "application/json",
             "bytes": "2048",
             "date": "2023-03-01",
             "encoding": "utf-8",
@@ -137,7 +137,8 @@
                     {
                         "title": "consent title",
                         "description": "consent description",
-                        "path": "https://microsoft.github.io/opendatasheets/"
+                        "path": "https://microsoft.github.io/opendatasheets/",
+                        "name": ""
                     }
                 ]
             }
@@ -151,7 +152,9 @@
                         "title": "contributor title",
                         "path": "https://microsoft.github.io/opendatasheets/",
                         "email": "some@email.com",
-                        "role": "maintainer"
+                        "role": "maintainer",
+                        "name": "",
+                        "description": ""
                     }
                 ],
                 "methods": [
