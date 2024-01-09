@@ -1,6 +1,8 @@
 # Open Data Sheets
 
-This framework aims to assists in the documentation of datasets to promote transparency and help dataset creators and consumers make informed decisions about whether specific datasets meet their needs and what limitations they need to consider
+Good data documentation practices are an essential component of responsible AI, as they help determine how a dataset might affect machine learning models and other solutions produced from it.
+
+This framework aims to assist in the documentation of datasets to promote transparency and help dataset creators and consumers make informed decisions about whether specific datasets meet their needs and what limitations they need to consider. You can read more about it in our paper: [Open Datasheets: Machine-readable Documentation for Open Datasets and Responsible AI Assessments](https://arxiv.org/abs/2312.06153)
 
 ## Contributing
 
